@@ -1,4 +1,4 @@
-# OutboxDesignPattern
+# Outbox Design Pattern
 
 This project shows how to use the **Outbox Design Pattern** in C#.  
 It saves messages in the database and sends them safely using RabbitMQ and MassTransit.  
@@ -51,3 +51,4 @@ In the future, the project can be separated into multiple parts:
 
 This separation can make the system more **modular and easier to maintain**.  
 The system can also **scale** to handle more messages under high load.
+
